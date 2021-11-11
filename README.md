@@ -1,7 +1,7 @@
 # VM Test
 
 ## Directions
-0. Clone this repo to your local computer using GitHub Desktop.
+0. Clone this repo to your local computer using GitHub Desktop and make a new branch named `vm`
 
 1. Download and install [Bitvise SSSH Client Installer](https://www.bitvise.com/ssh-client-download).
 
@@ -46,6 +46,16 @@ of the machine (in the example below it is the poorly named `daily-rational-pyth
 
 10. Type `ls` to get the listing of the repo directory that you uploaded.
 
-*Take a screenshot and name it `screenshot1.png`, saving it to your local repo*
+*Take a screenshot of your local terminal window and name it `screenshot1.png`, saving it to your local repo*
 
-Now 
+Now that you have seen that you can upload files to the remote, let's show how we can make local edits and update them.
+
+11. On your local machine, create a new file named `new-file.txt` in your local copy of this github repo.
+
+12. Repeat steps 5 and 6 to push a new copy of your local directory to the remote VM. This will include your `new-file.txt`.
+
+13. On the remote machine, via terminal, you should still be in the repo directory. Type `ls` to see that `new-file.txt` is there.
+
+*Take a screenshot of the terminal window and name it `screenshot2.png`, saving it to your local repo*
+
+14. Submit a new Pull Request to merge the `vm` branch containing the two screenshots you added.
