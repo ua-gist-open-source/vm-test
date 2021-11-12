@@ -26,7 +26,7 @@ You can navigate between directories by using the controls above the file list b
 
 5. Navigate to the directory where this repo is checked out.
 
-6. Upload the directory of this repo to the remote. In the example below, I am uploading the directory named `4-0-docker-intro-aaryno`. 
+6. Upload the directory of this repo (something like `100-0-vm-setup-aaryno`) to the remote. In the example below, I am uploading the directory named `4-0-docker-intro-aaryno`. 
 
 ![screenshot](./media/screenshot-bitvise-sftp-upload-dir.png)
 
